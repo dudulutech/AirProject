@@ -13,6 +13,8 @@ public class Server {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection("jdbc:mysql://localhost:5432/air?useUnicode=true&serverTimezone=UTC", "postgres", "25399");
         } catch (Exception e) {
+
+
             e.printStackTrace();
         }
     }
